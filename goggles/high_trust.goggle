@@ -4,8 +4,6 @@
 ! author: Elliot Wianrd
 
 ! High-trust domains
-$boost,site:*.gov
-$boost,site:*.edu
 $boost,site:arxiv.org
 $boost,site:nature.com
 $boost,site:pubmed.ncbi.nlm.nih.gov
