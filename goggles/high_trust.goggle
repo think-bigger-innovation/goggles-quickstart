@@ -1,0 +1,23 @@
+include:
+  # High-trust domains
+  - "site:*.gov"
+  - "site:*.edu"
+  - "site:arxiv.org"
+  - "site:nature.com"
+  - "site:pubmed.ncbi.nlm.nih.gov"
+
+  # PDFs
+  - "url:*.pdf"
+
+exclude:
+  # Exclude known low-quality or misleading sources
+  - "site:*.blogspot.com"
+  - "site:*.wordpress.com"
+  - "site:clickbaitdomain.com"
+
+boost:
+  # Boost PDFs
+  - "url:*.pdf"
+  # Boost primary sources
+  - "site:*.gov"
+  - "site:*.edu"
