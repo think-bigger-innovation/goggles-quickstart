@@ -1,23 +1,14 @@
-include:
-  # High-trust domains
-  - "site:*.gov"
-  - "site:*.edu"
-  - "site:arxiv.org"
-  - "site:nature.com"
-  - "site:pubmed.ncbi.nlm.nih.gov"
+! name: High Trust Goggle
+! description: Prefer pulls from high-trust domains.
+! public: false
+! author: Elliot Wianrd
 
-  # PDFs
-  - "url:*.pdf"
+! High-trust domains
+$boost,site:*.gov
+$boost,site:*.edu
+$boost,site:arxiv.org
+$boost,site:nature.com
+$boost,site:pubmed.ncbi.nlm.nih.gov
 
-exclude:
-  # Exclude known low-quality or misleading sources
-  - "site:*.blogspot.com"
-  - "site:*.wordpress.com"
-  - "site:clickbaitdomain.com"
-
-boost:
-  # Boost PDFs
-  - "url:*.pdf"
-  # Boost primary sources
-  - "site:*.gov"
-  - "site:*.edu"
+! boost file types
+/*.pdf
