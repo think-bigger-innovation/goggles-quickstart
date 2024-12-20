@@ -4,9 +4,9 @@
 ! author: Elliot Wianrd
 
 ! High-trust domains
-site=arxiv.org/$boost
-site=nature.com/$boost
-site=pubmed.ncbi.nlm.nih.gov/$boost
+$boost,site=arxiv.org
+$boost,site=nature.com
+$boost,site=pubmed.ncbi.nlm.nih.gov
 
 ! boost file types
-.pdf|$boost=8
+$boost=8,.pdf|
