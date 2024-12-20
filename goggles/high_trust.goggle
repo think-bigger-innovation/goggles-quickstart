@@ -9,4 +9,4 @@ $boost,site=nature.com
 $boost,site=pubmed.ncbi.nlm.nih.gov
 
 ! boost file types
-$boost=8,.pdf|
+.pdf|$boost=8
