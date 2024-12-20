@@ -1,7 +1,7 @@
 ! name: High Trust Goggle
 ! description: Prefer pulls from high-trust domains.
 ! public: false
-! author: Elliot Wianrd
+! author: Elliot Winard
 
 ! High-trust domains
 $boost,site=arxiv.org
