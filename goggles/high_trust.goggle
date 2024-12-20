@@ -1,4 +1,4 @@
-! name: High Trust Goggle
+! name: PDFs only, prefer high-trust
 ! description: Prefer pulls from high-trust domains.
 ! public: false
 ! author: Elliot Winard
