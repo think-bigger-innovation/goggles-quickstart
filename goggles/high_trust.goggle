@@ -7,6 +7,17 @@
 $boost,site=arxiv.org
 $boost,site=nature.com
 $boost,site=pubmed.ncbi.nlm.nih.gov
+$boost,site=archives.gov
+$boost,site=loc.gov
+$boost,site=chroniclingamerica.loc.gov
+$boost,site=sec.gov
+$boost,site=worldbank.org
+$boost,site=proquest.com
+$boost,site=commerce.gov
+$boost,site=uschamber.com
+$boost,site=ftc.gov
+$boost,site=sciencedirect.com
+$boost,site=nist.gov
 
 ! boost file types
 .pdf|$boost=8
